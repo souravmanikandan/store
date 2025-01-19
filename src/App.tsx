@@ -8,10 +8,10 @@ function App() {
   const Links = lazy(() => import('./Pages/LinksPage'))
   return (
     <Suspense fallback={<div>Loading</div>}>
-      <Routes>
-        <Route path='/store/' element={<Home />}/>
-        <Route path='/store/images' element={<Images />}/>
-        <Route path='/store/Links' element={<Links />} />
+      <Routes >
+        <Route path='/' element={<Home />}/>
+        <Route path='/images' element={<Images />}/>
+        <Route path='/Links' element={<Links />} />
       </Routes>
     </Suspense>
   )
