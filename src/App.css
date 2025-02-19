@@ -90,7 +90,7 @@ img {
 .link-section {
   min-height: 100dvh;
   padding: 2em;
-  background-color: #041516;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
 .h2-link {
   display: flex;
@@ -105,5 +105,14 @@ a {
 }
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
+  border-bottom: 1px dotted rgb(142, 142, 142);
+  padding: 0 0 1em 0;
+}
+h3 {
+  color: white;
+  text-decoration: underline;
+  padding-top: 1em;
 }

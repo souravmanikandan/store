@@ -2,31 +2,36 @@ export const toMakeWebAttractiveAndFunction = [
     { 
         text: "cssgradient.io",
         link: "https://cssgradient.io/"
-
+        
     },
     
     { 
         text: "smtpjs",
         link: "https://www.smtpjs.com/"
-
+        
     },
     { 
         text: "nohat",
         link: "https://nohat.cc/"
-
+        
     },
     { 
         text: "photopea",
         link: "https://www.photopea.com/"
-
+        
     },
     
     { 
         text: "clickup",
         link: "https://clickup.com/"
-
+        
     },
     
+    { 
+        text: "trello",
+        link: "https://trello.com/"
+    
+    },
     
     { 
         text: "swiperjs",
@@ -43,11 +48,7 @@ export const toMakeWebAttractiveAndFunction = [
         link: "https://kenwheeler.github.io/slick/"
 
     },
-    { 
-        text: "getuikit",
-        link: "https://getuikit.com/"
-
-    },
+    
     
     { 
         text: "css-tricks",
@@ -88,11 +89,6 @@ export const toMakeWebAttractiveAndFunction = [
     
     
     { 
-        text: "trello",
-        link: "https://trello.com/"
-
-    },
-    { 
         text: "smashingmagazine",
         link: "https://www.smashingmagazine.com/"
 
@@ -102,11 +98,7 @@ export const toMakeWebAttractiveAndFunction = [
         link: "https://lodash.com/"
 
     },
-    { 
-        text: "csvistool",
-        link: "https://csvistool.com/"
-
-    },
+    
     { 
         text: "gratisography",
         link: "https://gratisography.com/"
@@ -165,6 +157,11 @@ export const uiAndTemplates = [
     { 
         text: "wix.com",
         link: "https://www.wix.com/"
+
+    },
+    { 
+        text: "getuikit",
+        link: "https://getuikit.com/"
 
     },
 ]
@@ -294,6 +291,11 @@ export const practiceCodingAndStudy = [
     { 
         text: "resumeworded",
         link: "https://resumeworded.com/"
+
+    },
+    { 
+        text: "csvistool",
+        link: "https://csvistool.com/"
 
     },
 ]

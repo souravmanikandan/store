@@ -18,19 +18,26 @@ const Links = () => {
   return (
     <section className="link-section">
         <h2 className="h2-link">Links</h2>
-        <div className="flex">
-            <ul>
+        <div>
+            <ul className='flex'>
                 {mapping(toMakeWebAttractiveAndFunction)}
             </ul>
-            <ul>
+
+            <h3>ui</h3>
+            <ul className='flex'>
                 {mapping(uiAndTemplates)}
             </ul>
-            <ul>
-                {mapping(weirdWebsites)}
-            </ul>
-            <ul>
+
+            <h3>practice</h3>
+            <ul className='flex'>
                 {mapping(practiceCodingAndStudy)}
             </ul>
+
+            <h3>weird website</h3>
+            <ul className='flex'>
+                {mapping(weirdWebsites)}
+            </ul>
+
         </div>
     </section>
   )
